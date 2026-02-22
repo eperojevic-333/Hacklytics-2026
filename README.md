@@ -56,18 +56,6 @@ The result is an automated pipeline that turns raw data into both written insigh
 - **ElevenLabs** — voice synthesis (voiceover)
 - **Data Source** — configurable input (CSV/DB/API/etc.)
 
-## Repository Structure (Suggested)
-> Adjust these to match your actual repo.
-- `src/` — pipeline code and integrations
-- `src/ingest/` — data loading connectors
-- `src/analysis/` — Sphinx prompt + parsing + result formatting
-- `src/summary/` — executive summary generation
-- `src/narration/` — Gemini transcript generation
-- `src/audio/` — ElevenLabs voiceover generation
-- `outputs/` — generated summaries, transcripts, audio files
-- `configs/` — runtime configuration (sources, model settings, voice settings)
-- `README.md` — this file
-
 ## How It Works (Conceptually)
 - The system treats Sphinx’s output as the “source of truth” for findings.
 - From that same output, it branches into:
@@ -83,7 +71,7 @@ The result is an automated pipeline that turns raw data into both written insigh
 ## Future Improvements
 - Add evaluation/guardrails for factual consistency between analysis and transcript
 - Support multiple voices / tones (formal vs. energetic) for different audiences
-- Add slide generation integration (auto-create a deck aligned with narration)
+- Implement conversational AI to go beyond preseting and into discussing with members
 - Develop further to discuss with members in meetings for further application! (Conversational AI)
 
 ## Team / Credits

@@ -10,6 +10,8 @@ This project is an end-to-end data science workflow that:
 
 The result is an automated pipeline that turns raw data into both written insights and an audio-ready presentation.
 
+Note. View sample outputs under the 'Sample Outputs' folder.
+
 ## Key Features
 - **Pluggable data ingestion**: bring your own data source (file, database, API, etc.).
 - **AI-driven analysis**: Sphinx performs exploratory analysis and produces structured findings.

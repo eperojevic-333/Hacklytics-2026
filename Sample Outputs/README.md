@@ -1,1 +1,1 @@
-A sample of generated outputs for out market analysis.
+A sample of generated outputs for our market analysis.
